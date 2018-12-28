@@ -1,0 +1,1 @@
+void Straight_Insert_Sort2(int A[]);
