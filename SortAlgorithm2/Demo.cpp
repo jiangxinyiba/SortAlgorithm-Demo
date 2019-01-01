@@ -5,6 +5,7 @@
 #include "StraightInsertSort2.h"
 #include "BubbleSort.h"
 #include "FastSort.h"
+#include "HeapSort.h"
 using namespace std;
 // 各种排序方法汇总
 int main()
@@ -35,6 +36,13 @@ int main()
 	memcpy(A4,Array,sizeof(Array));
 	int high = sizeof(Array)/sizeof(Array[0])-1;
 	Fast_Sort(A4,0,high); 
+	cout<<""<<endl;
+
+	// 堆排序
+	cout<< "堆排序法"<<endl;
+	int A5[sizeof(Array)];
+	memcpy(A5,Array,sizeof(Array));
+	Heap_Sort(A5); 
 
 	getchar();
 	return 0;

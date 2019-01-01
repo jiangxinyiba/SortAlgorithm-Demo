@@ -30,6 +30,9 @@
     <ClCompile Include="FastSort.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="HeapSort.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="StraightInsertSort1.h">
@@ -42,6 +45,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="FastSort.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HeapSort.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

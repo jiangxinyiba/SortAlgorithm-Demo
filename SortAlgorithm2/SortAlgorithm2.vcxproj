@@ -63,12 +63,14 @@
     <ClCompile Include="BubbleSort.cpp" />
     <ClCompile Include="demo.cpp" />
     <ClCompile Include="FastSort.cpp" />
+    <ClCompile Include="HeapSort.cpp" />
     <ClCompile Include="StraightInsertSort1.cpp" />
     <ClCompile Include="StraightInsertSort2.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BubbleSort.h" />
     <ClInclude Include="FastSort.h" />
+    <ClInclude Include="HeapSort.h" />
     <ClInclude Include="StraightInsertSort1.h" />
     <ClInclude Include="StraightInsertSort2.h" />
   </ItemGroup>
