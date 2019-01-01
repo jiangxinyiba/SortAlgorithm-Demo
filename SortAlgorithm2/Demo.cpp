@@ -6,6 +6,7 @@
 #include "BubbleSort.h"
 #include "FastSort.h"
 #include "HeapSort.h"
+#include "MergeSort.h"
 using namespace std;
 // 各种排序方法汇总
 int main()
@@ -43,6 +44,13 @@ int main()
 	int A5[sizeof(Array)];
 	memcpy(A5,Array,sizeof(Array));
 	Heap_Sort(A5); 
+	cout<<""<<endl;
+
+	// 归并排序
+	cout<< "归并排序法"<<endl;
+	int A6[sizeof(Array)];
+	memcpy(A6,Array,sizeof(Array));
+	Merge_sort(A6); 
 
 	getchar();
 	return 0;
